@@ -86,6 +86,8 @@ On macOS or Linux, open `http://127.0.0.1:4789/?print-pdf` in a Chromium browser
 
 The rendered HTML is written to `presentation/_site/`. It has no remote runtime dependencies, so the entire folder can be copied to the presentation computer and served locally.
 
+Ready-to-use offline distributions are committed as `presentation/ai-cofly-2026-html.zip` and `presentation/ai-cofly-2026.pdf`.
+
 ## Quality and provenance
 
 - [`docs/ASSET_REGISTER.md`](docs/ASSET_REGISTER.md) records every visual and its reuse basis.
