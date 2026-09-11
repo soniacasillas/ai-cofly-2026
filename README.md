@@ -62,7 +62,35 @@ See [`CODEX_PROMPT.md`](CODEX_PROMPT.md). Paste its contents into Codex after op
         └── data/
 ```
 
-The `presentation/` directory contains only scaffolding. Codex should build the actual implementation from the specifications.
+The `presentation/` directory contains the complete implementation.
+
+## Build and present
+
+Requirements: [Quarto](https://quarto.org/) 1.6 or newer and a current Chromium-based browser.
+
+```powershell
+cd presentation
+quarto render
+quarto preview
+```
+
+Open the local address printed by Quarto. Use the arrow keys to advance, `S` for presenter view (including notes), `F` for full screen and `O` for the slide overview. The deck is designed for a 16:9 projector.
+
+To create the static PDF fallback on Windows after starting `quarto preview --no-browser --port 4789`:
+
+```powershell
+& 'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe' --headless=new --disable-gpu --no-sandbox --run-all-compositor-stages-before-draw --virtual-time-budget=12000 --print-to-pdf-no-header --print-to-pdf='ai-cofly-2026.pdf' 'http://127.0.0.1:4789/?print-pdf'
+```
+
+On macOS or Linux, open `http://127.0.0.1:4789/?print-pdf` in a Chromium browser and choose **Print → Save as PDF**. Use landscape orientation, no headers or footers, and background graphics. The print stylesheet reveals all fragments and supplies static states for every interaction.
+
+The rendered HTML is written to `presentation/_site/`. It has no remote runtime dependencies, so the entire folder can be copied to the presentation computer and served locally.
+
+## Quality and provenance
+
+- [`docs/ASSET_REGISTER.md`](docs/ASSET_REGISTER.md) records every visual and its reuse basis.
+- [`docs/SCIENTIFIC_CHECKS.md`](docs/SCIENTIFIC_CHECKS.md) records the verified claims, dates and authoritative sources.
+- [`docs/QA.md`](docs/QA.md) records the render, visual, accessibility, interaction, offline and timing checks.
 
 ## Scientific examples in the talk
 
