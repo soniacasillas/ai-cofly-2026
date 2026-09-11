@@ -1,0 +1,118 @@
+---
+title: "Cómo la inteligencia artificial está aprendiendo el lenguaje de la vida"
+subtitle: "De las moléculas a los ecosistemas"
+author: "Sònia Casillas · Universitat Autònoma de Barcelona"
+bibliography: ../references.bib
+---
+
+<!--
+SCAFFOLD ONLY.
+Codex: read AGENTS.md and docs/ before implementing this deck.
+Do not treat this file as the final slide content.
+-->
+
+## ¿Puede una máquina aprender a leer la vida?
+
+**TODO:** implement from `docs/SLIDE_PLAN.md`.
+
+::: notes
+See `docs/SPEAKER_SCRIPT.md`, slide 1.
+:::
+
+## La vida está llena de información
+
+**TODO**
+
+::: notes
+See `docs/SPEAKER_SCRIPT.md`, slide 2.
+:::
+
+## ¿Qué está aprendiendo a hacer la IA?
+
+**RECONOCER · PREDECIR · BUSCAR · DISEÑAR · MONITORIZAR**
+
+::: notes
+See `docs/SPEAKER_SCRIPT.md`, slide 3.
+:::
+
+## PREDECIR · De una secuencia a una máquina molecular
+
+**TODO: AlphaFold conceptual interaction**
+
+::: notes
+See `docs/SPEAKER_SCRIPT.md`, slide 4.
+:::
+
+## DISEÑAR · ¿Y si la proteína todavía no existe?
+
+**TODO: RFdiffusion**
+
+::: notes
+See `docs/SPEAKER_SCRIPT.md`, slide 5.
+:::
+
+## RECONOCER · ¿Qué ve la IA en esta imagen?
+
+**TODO: pathology reveal**
+
+::: notes
+See `docs/SPEAKER_SCRIPT.md`, slide 6.
+:::
+
+## PREDECIR · ¿Qué ocurre si cambio una sola letra?
+
+**TODO: AlphaGenome conceptual slider**
+
+::: notes
+See `docs/SPEAKER_SCRIPT.md`, slide 7.
+:::
+
+## 9.000.000.000
+
+**TODO: verify number and implement scale transition**
+
+::: notes
+See `docs/SPEAKER_SCRIPT.md`, slide 8.
+:::
+
+## BUSCAR · Encontrar una aguja en un pajar químico
+
+**TODO: halicin prioritisation interaction**
+
+::: notes
+See `docs/SPEAKER_SCRIPT.md`, slide 9.
+:::
+
+## MONITORIZAR · Escuchar un ecosistema
+
+**TODO: BirdNET**
+
+::: notes
+See `docs/SPEAKER_SCRIPT.md`, slide 10.
+:::
+
+## ¿Qué tienen todos estos ejemplos en común?
+
+**No podemos probarlo todo.**
+
+**La IA nos ayuda a decidir dónde mirar primero.**
+
+::: notes
+See `docs/SPEAKER_SCRIPT.md`, slide 11.
+:::
+
+## Una predicción no es una verdad
+
+**DATOS → IA → PREDICCIÓN → EXPERIMENTO / OBSERVACIÓN → NUEVOS DATOS**
+
+::: notes
+See `docs/SPEAKER_SCRIPT.md`, slide 12.
+:::
+
+## De las moléculas a los ecosistemas
+
+**RECONOCER · PREDECIR · BUSCAR · DISEÑAR · MONITORIZAR**
+
+::: notes
+See `docs/SPEAKER_SCRIPT.md`, slide 13.
+:::
